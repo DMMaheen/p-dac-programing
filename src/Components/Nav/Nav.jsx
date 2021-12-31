@@ -25,6 +25,11 @@ export const Nav = () => {
                 </Link>
               </li>
               <li>
+                <Link className="content-A" to="/CoursesPage">
+                  Courses
+                </Link>
+              </li>
+              <li>
                 <Link className="content-A" to="technology">
                   Technologies
                 </Link>

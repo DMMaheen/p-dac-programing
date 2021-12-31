@@ -6,6 +6,7 @@ import Service from "../Servic/Service";
 import Technologypage from "../Technology/Technologypage";
 import Aboutus from "../AboutUs/Aboutus";
 import Contactpage from "../Contact Us/Contactpage";
+import CoursesPage from "../Courses/CoursesPage";
 
 export const Homepage = () => {
   return (
@@ -19,6 +20,7 @@ export const Homepage = () => {
           <Route path="/technology" element={<Technologypage />}></Route>
           <Route path="/About" element={<Aboutus />}></Route>
           <Route path="/contact" element={<Contactpage />}></Route>
+          <Route path="/CoursesPage" element={<CoursesPage />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

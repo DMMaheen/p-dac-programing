@@ -18,6 +18,9 @@ const Navbar = () => {
             </a>
           </li>
           <li>
+            <a href="">Courses</a>
+          </li>
+          <li>
             <a href="">Contact</a>
           </li>
           <li>
