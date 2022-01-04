@@ -1,6 +1,7 @@
 import React from "react";
-import Service from "../Servic/Service";
+
 import "./Main.css";
+import Modules from "../Servic/Modules";
 
 const Mainpage = () => {
   return (
@@ -20,7 +21,7 @@ const Mainpage = () => {
       <div className="main-img">
         <img src="https://wallpaperaccess.com/full/4142231.jpg" alt="image" />
       </div>
-      <Service />
+      <Modules />
     </div>
   );
 };

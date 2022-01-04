@@ -2,7 +2,7 @@ import React from "react";
 import "./Service.css";
 import { Card } from "react-bootstrap";
 
-export const ServiceItem = (item) => {
+export const ModulesItem = ({ item }) => {
   return (
     <div className="Card-main">
       <Card className="Card-name">

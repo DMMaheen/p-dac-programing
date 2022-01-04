@@ -1,22 +1,22 @@
 import React from "react";
 import { Data } from "../../Service/Data";
 import "./ServiceItm.css";
-import { ServiceItem } from "./ServiceItem";
+import { ModulesItem } from "./ModulesItem";
 
-const Service = () => {
+const Modules = () => {
   return (
     <div className="service-main">
       <div className="padding"></div>
       <div className="ser-our">
-        <p>Our Services</p>
+        <p>Our Modules</p>
       </div>
       <div>
         {Data.map((item) => (
-          <ServiceItem img={item.img} title={item.title} parag={item.parag} />
+          <ModulesItem item={item} />
         ))}
       </div>
     </div>
   );
 };
 
-export default Service;
+export default Modules;
