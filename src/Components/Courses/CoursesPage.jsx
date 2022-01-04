@@ -14,9 +14,10 @@ const CoursesPage = () => {
         </div>
       } */}
       <div className="content-Heading">
-        <marquee>
-          Welcome To PDAC-Professional Developement Advanced Computing Course
-        </marquee>
+        <h1>
+          <u>Welcome To PDAC Course</u>
+        </h1>
+        <h2>Our Course Contains:</h2>
       </div>
 
       <div className="Content-cardd-Id">
