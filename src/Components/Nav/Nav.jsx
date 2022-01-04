@@ -20,6 +20,11 @@ export const Nav = () => {
 
             <div className="Content-bar">
               <li>
+                <Link className="content-A" to="/placement">
+                  Placement
+                </Link>
+              </li>
+              <li>
                 <Link className="content-A" to="/service">
                   Services
                 </Link>
